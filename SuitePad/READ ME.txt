@@ -1,0 +1,9 @@
+Below are the description of the Twitter client 
+
+1- technology used for implemetaion are (javascript, jquery, bootstrap, css) no spa frameworks used
+2- I have created client side OAuth to access the Twitter API.
+3- Location field is integrated with google geocode to get long and lat of the selected location from the suggestion list.
+4- User Experience: the user has to enter his search critiria or some of and then click search, then a list of tweets should be shown based on the selected critiria each one with a user profile image and tweet text
+5- the search critiria is saved in the local storage when the user hit search button and restored when he refreshes the page 
+
+Thanks :)

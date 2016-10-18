@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- custom styles  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header with search critiria -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Twitter Client</a>
+        </div>
+        <div id="navbar">
+          <div class="navbar-form navbar-right">
+            <div class="form-group">
+              <input id="txtautocomplete" type="text" placeholder="Enter Address" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Enter Keyword" id="keyword" class="form-control">
+            </div>
+
+            <div class="form-group">
+             <select id="lang" class="form-control">
+              <option value="">Select Language</option>
+              <option value="de">German</option>
+              <option value="en">English</option>
+              <option value="fr">French</option>
+            </select>
+            </div>
+
+            <div class="form-group">
+            <button id="searchBtn" class="btn btn-success form-control">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- tweets area -->
+      <div class="container">
+       <div class="row" id="tweetsContainer">
+            <h1>Please Enter your search Critiria</h1>
+        </div>
+      </div>
+
+   </div>
+
+   <!-- jquery library -->
+    <script type="text/javascript" src="js/libs/jquery.js"></script>
+
+    <!-- google geocode -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+
+    <!-- twitter library -->
+    <script type="text/javascript" src="js/libs/twitter/codebird.js"></script>
+
+    <!-- entry point for the app -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

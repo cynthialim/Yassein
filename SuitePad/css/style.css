@@ -1,0 +1,31 @@
+body {
+	background: url("../images/pattern.png") repeat;
+}
+
+.tweet {
+	width: 100%;
+	clear: both;
+	margin: 10px 0;
+	float: left;
+	padding: 10px;
+	background: #fff;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+.tweet:hover {
+	background-color: #fff;
+}
+
+#tweetsContainer h1 {
+	font-size: 15px;
+	color: #6b6d70;
+	text-align: center;
+}
+
+.tweet img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
